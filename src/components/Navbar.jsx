@@ -31,10 +31,14 @@ const Navbar = () => {
         </div>
 
         <div className="nav-mobile-toggle" onClick={toggleMenu}>
-          <i className={isMenuOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'}></i>
+          <i className={isMenuOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars-staggered'}></i>
         </div>
 
         <div className={`nav-center ${isMenuOpen ? 'open' : ''}`}>
+          <div className="mobile-menu-header">
+            <span className="logo-text">OSWAL</span>
+            <button className="close-menu" onClick={closeMenu}><i className="fa-solid fa-xmark"></i></button>
+          </div>
           <ul className="nav-menu">
             <li className="menu-item has-mega">
               <NavLink to="/collections" onClick={closeMenu}>Jewellery</NavLink>
