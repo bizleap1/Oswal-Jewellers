@@ -12,7 +12,7 @@ const Footer = () => {
               Jewellers of distinction since 1970. Crafting legacies that last for generations with unmatched purity and trust.
             </p>
             <div className="social-links">
-              <a href="https://instagram.com" target="_blank" rel="noreferrer"><i className="fa-brands fa-instagram"></i></a>
+              <a href="https://www.instagram.com/oswaljewellers_?igsh=dzl0eTd3c3hyOGJ2" target="_blank" rel="noreferrer"><i className="fa-brands fa-instagram"></i></a>
               <a href="https://facebook.com" target="_blank" rel="noreferrer"><i className="fa-brands fa-facebook-f"></i></a>
               <a href="https://pinterest.com" target="_blank" rel="noreferrer"><i className="fa-brands fa-pinterest"></i></a>
             </div>
