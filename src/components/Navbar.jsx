@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink, useLocation } from 'react-router-dom';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const location = useLocation();
+  const isHome = location.pathname === '/';
 
   useEffect(() => {
     const handleScroll = () => {
@@ -22,7 +24,7 @@ const Navbar = () => {
   const closeMenu = () => setIsMenuOpen(false);
 
   return (
-    <nav className={`navbar ${isScrolled ? 'scrolled' : ''} ${isMenuOpen ? 'menu-active' : ''}`}>
+    <nav className={`navbar ${isScrolled || !isHome ? 'scrolled' : ''} ${isMenuOpen ? 'menu-active' : ''}`}>
       <div className="nav-container">
         <div className="nav-left">
           <Link to="/" className="nav-logo" onClick={closeMenu}>
