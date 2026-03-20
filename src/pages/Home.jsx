@@ -5,7 +5,8 @@ import ProductGrid from '../components/ProductGrid';
 import EditorialSection from '../components/EditorialSection';
 import MasonryGrid from '../components/MasonryGrid';
 import ShopTheLook from '../components/ShopTheLook';
-import GiftingSection from '../components/GiftingSection';
+import SilverArtifacts from '../components/SilverArtifacts';
+import TrustStrip from '../components/TrustStrip';
 
 const Home = () => {
   return (
@@ -13,8 +14,9 @@ const Home = () => {
       <Hero />
       <CategoryGrid />
       <ProductGrid />
+      <TrustStrip />
       <EditorialSection />
-      <GiftingSection />
+      <SilverArtifacts />
       <ShopTheLook />
       <MasonryGrid />
     </div>

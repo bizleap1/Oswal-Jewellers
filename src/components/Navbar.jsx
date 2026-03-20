@@ -43,43 +43,30 @@ const Navbar = () => {
                   <div className="mega-col">
                     <h4>Categories</h4>
                     <ul>
-                      <li><NavLink to="/collections" onClick={closeMenu}>Gold Necklace</NavLink></li>
-                      <li><NavLink to="/collections" onClick={closeMenu}>Diamond Earrings</NavLink></li>
-                      <li><NavLink to="/collections" onClick={closeMenu}>Wedding Rings</NavLink></li>
-                      <li><NavLink to="/collections" onClick={closeMenu}>Bangles & Bracelets</NavLink></li>
+                      <li><NavLink to="/collections" onClick={closeMenu}>Gold</NavLink></li>
+                      <li><NavLink to="/collections" onClick={closeMenu}>Silver</NavLink></li>
+                      <li><NavLink to="/collections" onClick={closeMenu}>Diamond</NavLink></li>
                     </ul>
                   </div>
                   <div className="mega-col preview">
-                    <img src="/images/necklace_preview.png" alt="Necklace" />
-                    <span>Fine Necklaces</span>
+                    <img src="/images/gold_category.png" alt="Gold" />
+                    <span>Gold Jewellery</span>
                   </div>
                   <div className="mega-col preview">
-                    <img src="/images/earrings_preview.png" alt="Earrings" />
-                    <span>Elegant Earrings</span>
+                    <img src="/images/necklace_preview.png" alt="Silver" />
+                    <span>Silver Jewellery</span>
                   </div>
                   <div className="mega-col preview">
-                    <img src="/images/ring_preview.png" alt="Ring" />
-                    <span>Bridal Special</span>
+                    <img src="/images/bridal_category.png" alt="Diamond" />
+                    <span>Diamond Jewellery</span>
                   </div>
                 </div>
               </div>
             </li>
             <li className="menu-item"><NavLink to="/collections" onClick={closeMenu}>Collections</NavLink></li>
             <li className="menu-item"><NavLink to="/wedding" onClick={closeMenu}>Wedding</NavLink></li>
-            <li className="menu-item">
-              <NavLink 
-                to="/gifting" 
-                onClick={(e) => {
-                  closeMenu();
-                  if (window.location.pathname === '/' && window.location.hash === '#gifting') {
-                    e.preventDefault();
-                    document.getElementById('gifting')?.scrollIntoView({ behavior: 'smooth' });
-                  }
-                }}
-              >
-                Gifting
-              </NavLink>
-            </li>
+            <li className="menu-item"><NavLink to="/silver-artifacts" onClick={closeMenu}>Silver Artifacts</NavLink></li>
+            <li className="menu-item"><NavLink to="/about" onClick={closeMenu}>About Us</NavLink></li>
           </ul>
         </div>
 

@@ -47,7 +47,6 @@ const ProductGrid = () => {
               </div>
               <div className="product-info">
                 <h3 className="product-title">{product.title}</h3>
-                <span className="product-price">{product.price}</span>
               </div>
             </div>
           ))}

@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 const Hero = () => {
   return (
     <section className="hero">
-      <div className="hero-bg animate-zoom">
-        <img src="/images/hero_jewelry.png" alt="Premium Jewelry" />
+      <div className="hero-bg">
+        <img src="/images/hero_main_v6.jpg" alt="Exclusive Gold Jewelry Collection" />
       </div>
       <div className="hero-overlay"></div>
       <div className="hero-content">

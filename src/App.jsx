@@ -4,7 +4,7 @@ import MainLayout from './layouts/MainLayout';
 import Home from './pages/Home';
 import Collections from './pages/Collections';
 import Wedding from './pages/Wedding';
-import Gifting from './pages/Gifting';
+import SilverArtifacts from './pages/SilverArtifacts';
 import About from './pages/About';
 import Contact from './pages/Contact';
 
@@ -16,7 +16,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="collections" element={<Collections />} />
           <Route path="wedding" element={<Wedding />} />
-          <Route path="gifting" element={<Gifting />} />
+          <Route path="silver-artifacts" element={<SilverArtifacts />} />
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
         </Route>
