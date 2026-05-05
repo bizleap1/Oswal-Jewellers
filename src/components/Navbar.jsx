@@ -28,7 +28,7 @@ const Navbar = () => {
       <div className="nav-container">
         <div className="nav-left">
           <Link to="/" className="nav-logo" onClick={closeMenu}>
-            <span className="logo-text">OSWAL</span>
+            <img src="/images/logo.png" alt="Oswal Jewellers Logo" className="logo-img" />
           </Link>
         </div>
 
@@ -38,41 +38,16 @@ const Navbar = () => {
 
         <div className={`nav-center ${isMenuOpen ? 'open' : ''}`}>
           <div className="mobile-menu-header">
-            <span className="logo-text">OSWAL</span>
+            <img src="/images/logo.png" alt="Oswal Jewellers Logo" className="logo-img" />
             <button className="close-menu" onClick={closeMenu}><i className="fa-solid fa-xmark"></i></button>
           </div>
           <ul className="nav-menu">
-            <li className="menu-item has-mega">
-              <NavLink to="/collections" onClick={closeMenu}>Jewellery</NavLink>
-              <div className="mega-menu">
-                <div className="mega-container">
-                  <div className="mega-col">
-                    <h4>Categories</h4>
-                    <ul>
-                      <li><NavLink to="/collections" onClick={closeMenu}>Gold</NavLink></li>
-                      <li><NavLink to="/collections" onClick={closeMenu}>Silver</NavLink></li>
-                      <li><NavLink to="/collections" onClick={closeMenu}>Diamond</NavLink></li>
-                    </ul>
-                  </div>
-                  <div className="mega-col preview">
-                    <img src="/images/gold_category.png" alt="Gold" />
-                    <span>Gold Jewellery</span>
-                  </div>
-                  <div className="mega-col preview">
-                    <img src="/images/necklace_preview.png" alt="Silver" />
-                    <span>Silver Jewellery</span>
-                  </div>
-                  <div className="mega-col preview">
-                    <img src="/images/bridal_category.png" alt="Diamond" />
-                    <span>Diamond Jewellery</span>
-                  </div>
-                </div>
-              </div>
-            </li>
+            <li className="menu-item"><NavLink to="/" onClick={closeMenu}>Home</NavLink></li>
             <li className="menu-item"><NavLink to="/collections" onClick={closeMenu}>Collections</NavLink></li>
             <li className="menu-item"><NavLink to="/wedding" onClick={closeMenu}>Wedding</NavLink></li>
             <li className="menu-item"><NavLink to="/silver-artifacts" onClick={closeMenu}>Silver Artifacts</NavLink></li>
             <li className="menu-item"><NavLink to="/about" onClick={closeMenu}>About Us</NavLink></li>
+            <li className="menu-item"><NavLink to="/contact" onClick={closeMenu}>Contact</NavLink></li>
           </ul>
         </div>
 

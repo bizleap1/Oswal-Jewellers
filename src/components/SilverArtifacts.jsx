@@ -6,25 +6,25 @@ const SilverArtifacts = () => {
     {
       id: 1,
       title: "Divine Silver Idols",
-      img: "/images/Oj 7.jpeg",
+      img: "/images/silver_ganesha_idol.jpg",
       link: "/collections"
     },
     {
       id: 2,
       title: "Traditional Utensils",
-      img: "/images/Oj 3.jpeg",
+      img: "/images/silver_thali_set.jpg",
       link: "/collections"
     },
     {
       id: 3,
       title: "Elegant Decor",
-      img: "/images/Oj 5.jpeg",
+      img: "/images/silver_diya_collection.jpg",
       link: "/collections"
     },
     {
       id: 4,
       title: "Heritage Artifacts",
-      img: "/images/Oj 6.jpeg",
+      img: "/images/silver_heritage_new.jpg",
       link: "/collections"
     }
   ];
@@ -60,7 +60,7 @@ const SilverArtifacts = () => {
           <div className="reel-card about-reel">
             <Link to="/about">
               <div className="reel-img">
-                <img src="/images/Oj 2.jpeg" alt="About Oswal Jewellers" />
+                <img src="/images/silver_legacy_new.jpg" alt="About Oswal Jewellers" />
                 <div className="reel-overlay about-overlay">
                   <span className="about-label">SINCE 20+ YEARS</span>
                   <h3>Our Legacy</h3>

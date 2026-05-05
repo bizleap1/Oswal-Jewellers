@@ -7,19 +7,19 @@ const SilverArtifacts = () => {
       id: 1,
       title: "Divine Silver Idols",
       desc: "Pure silver idols crafted with divine precision, perfect for your home temple or as auspicious gifts.",
-      img: "/images/Oj 7.jpeg"
+      img: "/images/silver_ganesha_idol.jpg"
     },
     {
       id: 2,
       title: "Heritage Silver Utensils",
       desc: "Traditional silver dinnerware and utensils, combining health benefits with timeless luxury.",
-      img: "/images/Oj 3.jpeg"
+      img: "/images/silver_thali_set.jpg"
     },
     {
       id: 3,
       title: "Exclusive Silver Decor",
       desc: "Modern and traditional silver decorative pieces to add a touch of regality to your living space.",
-      img: "/images/Oj 5.jpeg"
+      img: "/images/silver_diya_collection.jpg"
     }
   ];
 

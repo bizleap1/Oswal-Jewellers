@@ -7,7 +7,9 @@ const Footer = () => {
       <div className="container">
         <div className="footer-grid">
           <div className="footer-col brand-col">
-            <h3 className="footer-logo">OSWAL</h3>
+            <div className="footer-logo-container">
+              <img src="/images/logo.png" alt="Oswal Jewellers Logo" className="footer-logo-img" />
+            </div>
             <p className="footer-desc">
               Jewellers of distinction since 1970. Crafting legacies that last for generations with unmatched purity and trust.
             </p>
@@ -45,7 +47,7 @@ const Footer = () => {
               <p>Oswal Jewellers, Kasturi Chowk,</p>
               <p>Pune, Maharashtra 411002</p>
               <p className="contact-link"><i className="fa-solid fa-phone"></i> 8600930308</p>
-              <p className="contact-link"><i className="fa-solid fa-envelope"></i> oswaljewellers@gmail.com</p>
+              <p className="contact-link"><i className="fa-solid fa-envelope"></i> oswalsilverhouse@gmail.com</p>
             </div>
           </div>
         </div>

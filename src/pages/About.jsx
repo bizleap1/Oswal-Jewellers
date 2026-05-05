@@ -18,8 +18,8 @@ const About = () => {
         <div className="container">
           <div className="editorial-layout">
             <div className="editorial-image animate-fade-up">
-              <img src="/images/Oj 7.jpeg" alt="Heritage Collection" />
-              <div className="image-caption">Crafting Memories for Two Decades</div>
+              <img src="/images/oswal family.jpeg" alt="The Oswal Family" style={{ borderRadius: '8px' }} />
+              <div className="image-caption">The Oswal Family</div>
             </div>
             <div className="editorial-text animate-fade-up" style={{ animationDelay: '0.2s' }}>
               <h2 className="section-serif">A Tradition of <br /><i>Trust & Quality</i></h2>
@@ -55,6 +55,31 @@ const About = () => {
                 <h3>Silver Artifacts</h3>
                 <p>Pure silver idols, utensils, and articles that bring auspiciousness and grace to your home.</p>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Founders Section */}
+      <section className="founders-section section-padding">
+        <div className="container">
+          <div className="editorial-layout" style={{ marginBottom: '80px' }}>
+            <div className="editorial-content">
+              <span className="brand-label">THE VISIONARY</span>
+              <h2 className="section-serif">Mr. Pawan <i>Oswal</i></h2>
+              <p style={{ fontSize: '1.1rem', color: 'var(--color-text-muted)', marginBottom: '25px' }}>
+                With a passion for excellence and a deep respect for tradition, Mr. Pawan Oswal founded 
+                Oswal Jewellers with a single mission: to provide purity and trust in every piece of gold.
+              </p>
+              <p style={{ fontSize: '1rem', color: 'var(--color-text-muted)' }}>
+                His leadership for over two decades has transformed a local showroom into a hallmark of quality 
+                in Pune. Under his guidance, we continue to innovate while staying true to the handcrafted heritage 
+                that our patrons have loved for generations.
+              </p>
+            </div>
+            <div className="editorial-image">
+              <img src="/images/pawan oswal.jpeg" alt="Pawan Oswal" style={{ borderRadius: '8px', boxShadow: 'var(--shadow-premium)' }} />
+              <div className="image-caption">Founder, Pawan Oswal</div>
             </div>
           </div>
         </div>

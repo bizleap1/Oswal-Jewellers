@@ -2,18 +2,18 @@ import React from 'react';
 
 const Collections = () => {
   const products = [
-    { id: 1, name: 'Ethereal Bloom Ring', img: '/images/ROH02500.JPG.jpeg', badge: 'New', rating: '★★★★★' },
-
-    { id: 8, name: 'Starlight Diamond Band', img: '/images/ROH02496.JPG.jpeg', rating: '★★★★☆' },
-    { id: 9, name: 'Rose Gold Eternity', img: '/images/ROH02491.JPG.jpeg', rating: '★★★★★' },
-    { id: 10, name: 'Antique Wedding Jhumkas', img: '/images/ROH02484.JPG.jpeg', rating: '★★★★★' },
-    { id: 11, name: 'Temple Gold Kada', img: '/images/ROH02481.JPG.jpeg', rating: '★★★★★' },
-    { id: 12, name: 'Diamond Drop Earrings', img: '/images/ROH02297.JPG.jpeg', rating: '★★★★★' },
-    { id: 13, name: 'Symphony Choker', img: '/images/ROH02284.JPG.jpeg', rating: '★★★★★' },
-    { id: 14, name: 'Lustrous Pearls', img: '/images/ROH02249.JPG.jpeg', rating: '★★★★☆' },
-    { id: 15, name: 'Classic Pendants', img: '/images/ROH02229.JPG.jpeg', rating: '★★★★★' },
-    { id: 16, name: 'Radiant Bangle', img: '/images/ROH02210 (1).JPG.jpeg', rating: '★★★★★' },
-    { id: 17, name: 'Heritage Necklace', img: '/images/ROH01760.JPG', rating: '★★★★★' },
+    { id: 1, name: 'Polki Emerald Necklace', img: '/images/Polki Emerald Necklace.jpg', badge: 'Signature', rating: '★★★★★' },
+    { id: 2, name: 'Kundan Green Enamel Choker', img: '/images/Kundan Green Enamel Choke.jpg', rating: '★★★★★' },
+    { id: 3, name: 'Meenakari Jhumka Earrings', img: '/images/Meenakari Earrings.jpg', badge: 'Classic', rating: '★★★★★' },
+    { id: 4, name: 'Polki Meenakari Chandelier', img: '/images/Polki Meenakari Chandelier Earrings.jpg', rating: '★★★★★' },
+    { id: 5, name: 'Rose Gold Geometric Set', img: '/images/Rose Gold Geometric Set.jpg', badge: 'Modern', rating: '★★★★☆' },
+    { id: 6, name: 'Floral Pink Enamel Bangles', img: '/images/Floral Pink Enamel Bangles.jpg', badge: 'Trending', rating: '★★★★★' },
+    { id: 7, name: 'Ruby Triangle Necklace', img: '/images/Rose Gold Ruby Triangle Necklace Set.jpg', rating: '★★★★★' },
+    { id: 8, name: 'Geometric Rose Gold Set', img: '/images/Rose gold geometric necklace set.jpg', rating: '★★★★★' },
+    { id: 9, name: 'Nakshi Temple Necklace', img: '/images/NakshiTemple Necklace.jpg', badge: 'Heritage', rating: '★★★★★' },
+    { id: 10, name: 'Rose Gold Aqua Bangle', img: '/images/Rose Gold Diamond Aqua Bangle.jpg', rating: '★★★★★' },
+    { id: 11, name: 'Pear Diamond Bypass Bangles', img: '/images/Rose Gold Pear Diamond Bypass Bangles.jpg', rating: '★★★★★' },
+    { id: 12, name: 'Symphony Diamond Choker', img: '/images/ROH02284.JPG.jpeg', rating: '★★★★★' }
   ];
 
   return (
