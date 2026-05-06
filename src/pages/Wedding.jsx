@@ -31,20 +31,13 @@ const Wedding = () => {
 
   return (
     <div className="wedding-page">
-      <div className="page-hero wedding-hero" style={{
-        background: 'linear-gradient(135deg, var(--color-ivory) 0%, #fdfbf7 100%)',
-        color: 'var(--color-charcoal)',
-        padding: '180px 0 120px',
-        textAlign: 'center',
-        position: 'relative',
-        borderBottom: '1px solid var(--color-beige)'
-      }}>
+      <div className="page-hero wedding-hero wedding-page-hero">
         <div className="hero-pattern-overlay" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', opacity: 0.05, backgroundImage: 'radial-gradient(var(--color-gold) 1px, transparent 1px)', backgroundSize: '40px 40px' }}></div>
         <div className="container" style={{ position: 'relative', zIndex: 2 }}>
-          <span className="brand-label" style={{ color: 'var(--color-gold)', letterSpacing: '0.3em', fontSize: '0.85rem' }}>THE OSWAL BRIDAL SUITE</span>
-          <h1 style={{ fontSize: '5.5rem', marginTop: '20px', marginBottom: '30px', fontWeight: 300 }}>A Forever Kind <br/>of <i>Grace</i></h1>
+          <span className="brand-label">THE OSWAL BRIDAL SUITE</span>
+          <h1 className="wedding-hero-title">A Forever Kind <br/>of <i>Grace</i></h1>
           <div className="title-divider" style={{ margin: '0 auto 30px' }}></div>
-          <p style={{ color: 'var(--color-text-muted)', maxWidth: '600px', margin: '0 auto', fontSize: '1.2rem', lineHeight: '1.8' }}>
+          <p className="wedding-hero-sub">
             Every bride deserves a legacy. Our wedding collection is crafted with ethically sourced 
             diamonds and heritage gold to be passed down through generations.
           </p>

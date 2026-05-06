@@ -4,14 +4,14 @@ const Contact = () => {
   return (
     <div className="contact-page">
       {/* Editorial Hero */}
-      <div className="page-hero" style={{ background: 'var(--color-ivory)', padding: '160px 0 100px' }}>
+      <div className="page-hero contact-page-hero">
         <div className="container">
           <span className="brand-label">REACH OUT</span>
-          <h1 className="about-title" style={{ fontSize: '4.5rem', marginBottom: '30px' }}>
+          <h1 className="contact-hero-title">
             Let's Start a <i>Conversation</i>
           </h1>
           <div className="title-divider"></div>
-          <p style={{ maxWidth: '600px', margin: '40px auto 0', color: 'var(--color-text-muted)', fontSize: '1.1rem' }}>
+          <p className="contact-hero-sub">
             Whether you seek a bespoke masterpiece or wish to explore our heritage collections, 
             our advisors are dedicated to providing an unparalleled experience.
           </p>

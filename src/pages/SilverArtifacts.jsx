@@ -52,12 +52,12 @@ const SilverArtifacts = () => {
         </div>
       </section>
 
-      <section className="certified-section section-padding" style={{ background: 'var(--color-charcoal)', color: 'white' }}>
-        <div className="container flex-center">
-          <div className="certified-content" style={{ textAlign: 'center' }}>
-            <span className="badge" style={{ color: 'var(--color-gold)' }}>GUARANTEED PURITY</span>
-            <h2 style={{ color: 'white' }}>Certified 92.5 <i>Sterling Silver</i></h2>
-            <p>Every piece at Oswal Jewellers comes with a hallmark of purity, ensuring you get the finest silver for your legacy.</p>
+      <section className="certified-section section-padding">
+        <div className="container text-center">
+          <div className="certified-content">
+            <span className="brand-label">GUARANTEED PURITY</span>
+            <h2>Certified 92.5 <i>Sterling Silver</i></h2>
+            <p className="section-desc">Every piece at Oswal Jewellers comes with a hallmark of purity, ensuring you get the finest silver for your legacy.</p>
             <button className="btn btn-gold-outline">View Certification</button>
           </div>
         </div>

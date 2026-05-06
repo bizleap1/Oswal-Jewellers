@@ -32,10 +32,10 @@ const SilverArtifacts = () => {
   return (
     <section id="silver-artifacts" className="silver-artifacts-section section-padding">
       <div className="container">
-        <div className="section-header" style={{ marginBottom: '50px', textAlign: 'center' }}>
+        <div className="section-header">
           <span className="brand-label">OSWAL EXCLUSIVE</span>
-          <h2 className="section-title" style={{ textAlign: 'center' }}>Silver <i>Artifacts</i></h2>
-          <p style={{ maxWidth: '700px', margin: '0 auto', color: 'var(--color-text-muted)' }}>
+          <h2 className="section-title text-center">Silver <i>Artifacts</i></h2>
+          <p className="section-desc">
             Explore our curated collection of pure silver masterpieces. From divine idols to heritage utensils, 
             each piece tells a story of tradition and fine craftsmanship.
           </p>

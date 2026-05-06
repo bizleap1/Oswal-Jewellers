@@ -25,10 +25,10 @@ const GiftingSection = () => {
   return (
     <section id="gifting" className="gifting-section section-padding">
       <div className="container">
-        <div className="section-header" style={{ marginBottom: '50px', textAlign: 'center' }}>
+        <div className="section-header">
           <span className="brand-label">OSWAL</span>
-          <h2 className="section-title" style={{ textAlign: 'center' }}>The Art of <i>Gifting</i></h2>
-          <p style={{ maxWidth: '700px', margin: '0 auto', color: 'var(--color-text-muted)' }}>
+          <h2 className="section-title text-center">The Art of <i>Gifting</i></h2>
+          <p className="section-desc">
             Make every moment memorable with Oswal's curated gifting collection. 
             From precious heirloom pieces to contemporary tokens of love and appreciation.
           </p>
