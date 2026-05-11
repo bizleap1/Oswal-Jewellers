@@ -5,19 +5,19 @@ const products = [
     id: 1,
     title: 'Imperial Gold Necklace',
     price: '₹2,45,000',
-    img: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=2000&q=100'
+    img: '/images/NakshiTemple Necklace.jpg'
   },
   {
     id: 2,
     title: 'Heritage Gold Earrings',
     price: '₹85,000',
-    img: 'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=2000&q=100'
+    img: '/images/Polki Meenakari Chandelier Earrings.jpg'
   },
   {
     id: 3,
     title: 'Diamond Statement Ring',
     price: '₹1,20,000',
-    img: 'https://images.unsplash.com/photo-1762019313711-8b5d1e4f7ba4?auto=format&fit=crop&w=2000&q=100'
+    img: '/images/ring_preview.png'
   },
   {
     id: 4,

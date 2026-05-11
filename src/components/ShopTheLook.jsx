@@ -6,7 +6,7 @@ const ShopTheLook = () => {
       <div className="container">
         <div className="look-grid">
           <div className="look-main-img animate-fade-up">
-            <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1200&q=80" alt="Styled Model" />
+            <img src="/images/Bridal Gold Jewelry Full Set.jpg" alt="Styled Model" />
             
             {/* Hotspots */}
             <div className="hotspot" style={{ top: '30%', left: '50%' }}>

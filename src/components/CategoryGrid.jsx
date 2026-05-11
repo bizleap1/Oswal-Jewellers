@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const categories = [
-  { id: 1, title: 'Gold Jewellery', image: '/images/gold_category.png', size: 'large' },
-  { id: 2, title: 'Silver Jewellery', image: '/images/necklace_preview.png', size: 'normal' },
-  { id: 3, title: 'Diamond Jewellery', image: '/images/bridal_category.png', size: 'normal' },
+  { id: 1, title: 'Gold Jewellery', image: '/images/NakshiTemple Necklace.jpg', size: 'large' },
+  { id: 2, title: 'Silver Jewellery', image: '/images/silver_heritage_new.jpg', size: 'normal' },
+  { id: 3, title: 'Diamond Jewellery', image: '/images/ROH02284.JPG.jpeg', size: 'normal' },
 ];
 
 const CategoryGrid = () => {

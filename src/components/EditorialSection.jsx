@@ -14,7 +14,7 @@ const EditorialSection = () => {
       </div>
       <div className="editorial-img">
         <img 
-          src="https://images.unsplash.com/photo-1573408301185-9146fe634ad0?auto=format&fit=crop&w=1200&q=80" 
+          src="/images/NakshiTemple Necklace.jpg" 
           alt="Artisanal Craftsmanship" 
         />
       </div>
