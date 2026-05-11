@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const categories = [
   { id: 1, title: 'Gold Jewellery', image: '/images/NakshiTemple Necklace.jpg', size: 'large' },
-  { id: 2, title: 'Silver Jewellery', image: '/images/silver_legacy_new.jpg', size: 'normal' },
+  { id: 2, title: 'Rose Gold Jewellery', image: '/images/Rose Gold Ruby Triangle Necklace Set.jpg', size: 'normal' },
   { id: 3, title: 'Diamond Jewellery', image: '/images/ROH02284.JPG.jpeg', size: 'normal' },
 ];
 
