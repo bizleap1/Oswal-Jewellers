@@ -53,7 +53,11 @@ const Contact = () => {
                   <i className="fa-solid fa-envelope-open-text" style={{ color: 'var(--color-gold)', fontSize: '1.8rem', marginTop: '5px' }}></i>
                   <div>
                     <h4 style={{ textTransform: 'uppercase', fontSize: '0.85rem', letterSpacing: '0.15em', marginBottom: '8px', color: 'var(--color-charcoal)' }}>Direct Enquiries</h4>
-                    <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.6', fontSize: '1.05rem' }}>oswalsilverhouse@gmail.com<br/>+91 8600930308</p>
+                    <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.6', fontSize: '1.05rem' }}>
+                      oswalsilverhouse@gmail.com<br/>
+                      oswaljewel@gmail.com<br/>
+                      +91 8600930308
+                    </p>
                   </div>
                 </div>
               </div>

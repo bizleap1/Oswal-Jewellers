@@ -48,6 +48,7 @@ const Footer = () => {
               <p>Pune, Maharashtra 411002</p>
               <p className="contact-link"><i className="fa-solid fa-phone"></i> 8600930308</p>
               <p className="contact-link"><i className="fa-solid fa-envelope"></i> oswalsilverhouse@gmail.com</p>
+              <p className="contact-link"><i className="fa-solid fa-envelope"></i> oswaljewel@gmail.com</p>
             </div>
           </div>
         </div>
