@@ -13,7 +13,6 @@ const ShopTheLook = () => {
               <div className="hotspot-dot"></div>
               <div className="hotspot-card">
                 <span>Diamond Choker</span>
-                <p>₹2,45,000</p>
               </div>
             </div>
             
@@ -21,7 +20,6 @@ const ShopTheLook = () => {
               <div className="hotspot-dot"></div>
               <div className="hotspot-card">
                 <span>Gold Studs</span>
-                <p>₹45,000</p>
               </div>
             </div>
           </div>
