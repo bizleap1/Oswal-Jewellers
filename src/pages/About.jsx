@@ -65,21 +65,21 @@ const About = () => {
         <div className="container">
           <div className="editorial-layout" style={{ marginBottom: '80px' }}>
             <div className="editorial-content">
-              <span className="brand-label">THE VISIONARY</span>
-              <h2 className="section-serif">Mr. Pawan <i>Oswal</i></h2>
+              <span className="brand-label">THE VISIONARIES</span>
+              <h2 className="section-serif">Mr. Mukesh & Mr. Pawan <i>Oswal</i></h2>
               <p style={{ fontSize: '1.1rem', color: 'var(--color-text-muted)', marginBottom: '25px' }}>
-                With a passion for excellence and a deep respect for tradition, Mr. Pawan Oswal founded 
+                With a passion for excellence and a deep respect for tradition, Mr. Mukesh Oswal and Mr. Pawan Oswal founded 
                 Oswal Jewellers with a single mission: to provide purity and trust in every piece of gold.
               </p>
               <p style={{ fontSize: '1rem', color: 'var(--color-text-muted)' }}>
-                His leadership for over two decades has transformed a local showroom into a hallmark of quality 
-                in Pune. Under his guidance, we continue to innovate while staying true to the handcrafted heritage 
+                Their joint leadership for over two decades has transformed a local showroom into a hallmark of quality 
+                in Pune. Under their guidance, we continue to innovate while staying true to the handcrafted heritage 
                 that our patrons have loved for generations.
               </p>
             </div>
             <div className="editorial-image">
-              <img src="/images/pawan oswal.jpeg" alt="Pawan Oswal" style={{ borderRadius: '8px', boxShadow: 'var(--shadow-premium)' }} />
-              <div className="image-caption">Founder, Pawan Oswal</div>
+              <img src="/images/pawan oswal.jpeg" alt="Mukesh and Pawan Oswal" style={{ borderRadius: '8px', boxShadow: 'var(--shadow-premium)' }} />
+              <div className="image-caption">Founders, Mukesh Oswal & Pawan Oswal</div>
             </div>
           </div>
         </div>
