@@ -1552,12 +1552,19 @@ h4 {
     box-shadow: var(--shadow-premium);
   }
 
+  .nav-left {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
   .logo-img {
     filter: none !important;
     height: 200px !important;
     transform: translateY(10px);
     object-position: left center;
-    margin-left: -15px; /* Pull it slightly to the edge for better alignment with content */
+    margin-left: -25px; /* Pull it further to the left edge */
   }
 
   .nav-mobile-toggle {
