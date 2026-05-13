@@ -11,7 +11,7 @@ const Footer = () => {
               <img src="/images/logo.png" alt="Oswal Jewellers Logo" className="footer-logo-img" />
             </div>
             <p className="footer-desc">
-              Jewellers of distinction since 1970. Crafting legacies that last for generations with unmatched purity and trust.
+              Jewellers of distinction since 2005. Crafting legacies that last for generations with unmatched purity and trust.
             </p>
             <div className="social-links">
               <a href="https://www.instagram.com/oswaljewellers_?igsh=dzl0eTd3c3hyOGJ2" target="_blank" rel="noreferrer"><i className="fa-brands fa-instagram"></i></a>
@@ -19,7 +19,7 @@ const Footer = () => {
               <a href="https://pinterest.com" target="_blank" rel="noreferrer"><i className="fa-brands fa-pinterest"></i></a>
             </div>
           </div>
-          
+
           <div className="footer-col">
             <h4>Our Collections</h4>
             <ul>
@@ -29,7 +29,7 @@ const Footer = () => {
               <li><Link to="/collections">Daily Gold</Link></li>
             </ul>
           </div>
-          
+
           <div className="footer-col">
             <h4>Quick Links</h4>
             <ul>
@@ -39,7 +39,7 @@ const Footer = () => {
               <li><Link to="/contact">Get in Touch</Link></li>
             </ul>
           </div>
-          
+
           <div className="footer-col visit-col">
             <h4>Visit Us</h4>
             <div className="address-info">
@@ -55,7 +55,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        
+
         <div className="footer-bottom">
           <p>&copy; {new Date().getFullYear()} Oswal Jewellers. All rights reserved.</p>
           <div className="footer-legal">
