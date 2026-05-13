@@ -27,7 +27,7 @@ const Navbar = () => {
     <nav className={`navbar ${isScrolled || !isHome ? 'scrolled' : ''} ${isMenuOpen ? 'menu-active' : ''}`}>
       <div className="nav-container">
         <div className="nav-left">
-          <Link to="/" className="nav-logo" onClick={closeMenu}>
+          <Link to="/" className="nav-logo" onClick={closeMenu} aria-label="Oswal Jewellers Home">
             <img src="/images/logo.png" alt="Oswal Jewellers Logo" className="logo-img" />
           </Link>
         </div>
@@ -38,7 +38,7 @@ const Navbar = () => {
 
         <div className={`nav-center ${isMenuOpen ? 'open' : ''}`}>
           <div className="mobile-menu-header">
-            <img src="/images/logo.png" alt="Oswal Jewellers Logo" className="logo-img" />
+            <img src="/images/logo.png" alt="Oswal Jewellers Logo" className="logo-img" aria-hidden="true" />
             <button className="close-menu" onClick={closeMenu}><i className="fa-solid fa-xmark"></i></button>
           </div>
           <ul className="nav-menu">
