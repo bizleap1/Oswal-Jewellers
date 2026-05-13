@@ -405,6 +405,7 @@ h4 {
   z-index: 1;
   max-width: 800px;
   color: var(--color-white);
+  margin-left: 50px;
 }
 
 .hero-content .brand-label {
@@ -478,9 +479,19 @@ h4 {
 }
 
 @keyframes scroll-wheel {
-  0% { transform: translate(-50%, 0); opacity: 0; }
-  30% { opacity: 1; }
-  100% { transform: translate(-50%, 15px); opacity: 0; }
+  0% {
+    transform: translate(-50%, 0);
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate(-50%, 15px);
+    opacity: 0;
+  }
 }
 
 
@@ -1642,7 +1653,8 @@ h4 {
     height: 220px !important;
     object-fit: contain;
     object-position: left center;
-    margin-left: -35px; /* Pin it closer to the left edge */
+    margin-left: -35px;
+    /* Pin it closer to the left edge */
     display: block;
   }
 
