@@ -1552,6 +1552,14 @@ h4 {
     box-shadow: var(--shadow-premium);
   }
 
+  .nav-container {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+  }
+
   .nav-left {
     flex: 1;
     display: flex;
@@ -1561,10 +1569,11 @@ h4 {
 
   .logo-img {
     filter: none !important;
-    height: 200px !important;
-    transform: translateY(10px);
+    height: 180px !important;
+    object-fit: contain;
     object-position: left center;
-    margin-left: -25px; /* Pull it further to the left edge */
+    margin-left: -20px;
+    display: block;
   }
 
   .nav-mobile-toggle {
