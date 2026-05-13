@@ -152,7 +152,7 @@ h4 {
   align-items: center;
   background: transparent;
   transition: all 0.4s ease;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: none;
 }
 
 .navbar.scrolled {
@@ -1548,7 +1548,7 @@ h4 {
   .navbar {
     background: var(--color-ivory) !important;
     height: 110px !important;
-    border-bottom: 1px solid var(--color-beige);
+    border-bottom: none;
     box-shadow: var(--shadow-premium);
   }
 
