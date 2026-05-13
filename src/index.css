@@ -1554,7 +1554,7 @@ h4 {
 
   .logo-img {
     filter: none !important;
-    height: 140px !important;
+    height: 200px !important;
     transform: translateY(10px);
     object-position: left center;
     margin-left: -15px; /* Pull it slightly to the edge for better alignment with content */
