@@ -21,33 +21,51 @@ const Testimonials = () => {
         </div>
 
         <div className="testimonials-video-grid">
-          {videos.map((video) => (
-            <div key={video.id} className="testimonial-video-card">
-              <div className="video-wrapper">
-                <video 
-                  src={video.src} 
-                  muted 
-                  loop 
-                  autoPlay
-                  playsInline
-                  className="testimonial-video"
-                />
-                <div className="video-overlay">
-                  <i className="fa-solid fa-play"></i>
+          {videos.map((video) => {
+            const videoRef = React.useRef(null);
+            const [isMuted, setIsMuted] = React.useState(true);
+
+            const toggleAudio = (e) => {
+              e.stopPropagation();
+              if (videoRef.current) {
+                const newMuteStatus = !videoRef.current.muted;
+                videoRef.current.muted = newMuteStatus;
+                setIsMuted(newMuteStatus);
+              }
+            };
+
+            return (
+              <div key={video.id} className="testimonial-video-card">
+                <div className="video-wrapper" onClick={toggleAudio}>
+                  <video 
+                    ref={videoRef}
+                    src={video.src} 
+                    muted 
+                    loop 
+                    autoPlay
+                    playsInline
+                    className="testimonial-video"
+                  />
+                  <div className="video-overlay">
+                    <button className="sound-toggle" onClick={toggleAudio}>
+                      <i className={`fa-solid ${isMuted ? 'fa-volume-xmark' : 'fa-volume-high'}`}></i>
+                    </button>
+                    {!isMuted && <div className="playing-indicator">NOW PLAYING WITH SOUND</div>}
+                  </div>
+                </div>
+                <div className="testimonial-info">
+                  <h3>{video.title}</h3>
+                  <div className="rating">
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                  </div>
                 </div>
               </div>
-              <div className="testimonial-info">
-                <h3>{video.title}</h3>
-                <div className="rating">
-                  <i className="fa-solid fa-star"></i>
-                  <i className="fa-solid fa-star"></i>
-                  <i className="fa-solid fa-star"></i>
-                  <i className="fa-solid fa-star"></i>
-                  <i className="fa-solid fa-star"></i>
-                </div>
-              </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>
