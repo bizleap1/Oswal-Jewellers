@@ -46,9 +46,12 @@ const Footer = () => {
               <p><strong>Pune Branch:</strong></p>
               <p>Oswal Jewellers, Kasturi Chowk,</p>
               <p>Pune, Maharashtra 411002</p>
-              <p className="contact-link"><i className="fa-solid fa-phone"></i> <a href="tel:8600930308">8600930308</a></p>
-              <p className="contact-link"><i className="fa-solid fa-envelope"></i> oswalsilverhouse@gmail.com</p>
               <p className="contact-link"><i className="fa-solid fa-envelope"></i> oswaljewel@gmail.com</p>
+              <p className="contact-link"><i className="fa-solid fa-phone"></i> <a href="tel:9767351211">9767351211</a> / <a href="tel:9371704222">9371704222</a></p>
+              <div style={{ marginTop: '15px' }}>
+                <p className="contact-link"><i className="fa-solid fa-envelope"></i> oswalsilverhouse@gmail.com</p>
+                <p className="contact-link"><i className="fa-solid fa-phone"></i> <a href="tel:9607013888">9607013888</a></p>
+              </div>
             </div>
           </div>
         </div>

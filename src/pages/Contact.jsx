@@ -52,12 +52,21 @@ const Contact = () => {
                 <div className="detail-item" style={{ display: 'flex', gap: '25px' }}>
                   <i className="fa-solid fa-envelope-open-text" style={{ color: 'var(--color-gold)', fontSize: '1.8rem', marginTop: '5px' }}></i>
                   <div>
-                    <h4 style={{ textTransform: 'uppercase', fontSize: '0.85rem', letterSpacing: '0.15em', marginBottom: '8px', color: 'var(--color-charcoal)' }}>Direct Enquiries</h4>
-                    <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.6', fontSize: '1.05rem' }}>
-                      oswalsilverhouse@gmail.com<br/>
-                      oswaljewel@gmail.com<br/>
-                      +91 8600930308
-                    </p>
+                    <h4 style={{ textTransform: 'uppercase', fontSize: '0.85rem', letterSpacing: '0.15em', marginBottom: '15px', color: 'var(--color-charcoal)' }}>Direct Enquiries</h4>
+                    <div style={{ marginBottom: '20px' }}>
+                      <p style={{ color: 'var(--color-gold)', fontWeight: '600', marginBottom: '5px' }}>Jewellery Enquiries:</p>
+                      <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.6', fontSize: '1.05rem' }}>
+                        oswaljewel@gmail.com<br/>
+                        <a href="tel:9767351211" style={{ color: 'inherit' }}>9767351211</a> / <a href="tel:9371704222" style={{ color: 'inherit' }}>9371704222</a>
+                      </p>
+                    </div>
+                    <div>
+                      <p style={{ color: 'var(--color-gold)', fontWeight: '600', marginBottom: '5px' }}>Silver House Enquiries:</p>
+                      <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.6', fontSize: '1.05rem' }}>
+                        oswalsilverhouse@gmail.com<br/>
+                        <a href="tel:9607013888" style={{ color: 'inherit' }}>9607013888</a>
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>

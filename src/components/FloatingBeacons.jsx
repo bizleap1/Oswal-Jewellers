@@ -2,13 +2,13 @@ import React from 'react';
 
 const FloatingBeacons = () => {
   const openWhatsApp = () => {
-    const phoneNumber = "8600930308";
+    const phoneNumber = "9767351211";
     const message = "Hello! I'm interested in your jewellery collection.";
     window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`, "_blank");
   };
 
   const openPhone = () => {
-    window.location.href = "tel:8600930308";
+    window.location.href = "tel:9767351211";
   };
 
   return (
