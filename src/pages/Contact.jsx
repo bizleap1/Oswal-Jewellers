@@ -45,7 +45,7 @@ const Contact = () => {
                   <i className="fa-regular fa-clock" style={{ color: 'var(--color-gold)', fontSize: '1.8rem', marginTop: '5px' }}></i>
                   <div>
                     <h4 style={{ textTransform: 'uppercase', fontSize: '0.85rem', letterSpacing: '0.15em', marginBottom: '8px', color: 'var(--color-charcoal)' }}>Opening Hours</h4>
-                    <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.6', fontSize: '1.05rem' }}>Monday - Saturday: 10:30 AM - 8:30 PM<br/>Sunday: Closed</p>
+                    <p style={{ color: 'var(--color-text-muted)', lineHeight: '1.6', fontSize: '1.05rem' }}>Tuesday - Sunday: 10:00 AM - 8:30 PM<br/>Monday: Closed</p>
                   </div>
                 </div>
 
